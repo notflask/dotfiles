@@ -9,6 +9,14 @@ return {
     end,
   },
   { "morhetz/gruvbox" },
+  {
+    "sainnhe/sonokai",
+    config = function()
+      vim.g.sonokai_style = "espresso"
+      vim.g.sonokai_transparent_background = true
+      vim.g.sonokai_enable_italic = true
+    end,
+  },
 
   {
     "nvim-neo-tree/neo-tree.nvim",
