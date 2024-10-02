@@ -6,3 +6,7 @@ debug
 foo.*
 *.log
 data
+elpa/
+auto-save-list/
+*~
+*smex*
